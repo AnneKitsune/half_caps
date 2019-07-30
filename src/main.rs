@@ -3,7 +3,7 @@ use std::env;
 fn main() {
 	let args: Vec<String> = env::args().collect();
 	if args.len() < 2 {
-		println!("Usage: halfcap 'string'");
+		println!("Usage: fuckthecase 'string'");
 		return;
 	}
 	let input = &args[1];
@@ -24,5 +24,5 @@ fn main() {
 			buf.push(c);
 		}
 	}
-    println!("Result: {}",buf);
+    println!("{}",buf);
 }
