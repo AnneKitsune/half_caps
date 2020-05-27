@@ -1,6 +1,15 @@
 [package]
-name = "fuckthecase"
+name = "halfcaps"
 version = "0.2.0"
-authors = ["jojo <jojolepromain@gmail.com>"]
+authors = ["jojolepro <jojolepro@jojolepro.com>"]
+edition = "2018"
+description = """
+tRaNslAtE aNy TeXt To ThIs.
+"""
+keywords = ["half", "upper", "case"]
+repository = "https://github.com/jojolepro/half_caps"
+license = "Apache-2.0"
+exclude = ["doc"]
 
 [dependencies]
+
