@@ -18,7 +18,7 @@ tHiS iS tExT
 First, install Rust (using [rustup](https://rustup.rs/)).
 Then, it is as simple as:
 ```sh
-cargo install -f half_caps
+cargo install -f halfcaps
 ```
 
 ## Build From Source
